@@ -1,0 +1,234 @@
+.clear {
+	clear: both;
+}
+.align-left {
+	float: left;
+	margin-right: 30px;
+	margin-bottom: 20px;
+}
+.align-right {
+	float: right;
+	margin-left: 30px;
+	margin-bottom: 20px;
+}
+.align-center {
+	text-align: center;
+}
+
+.treethereumplugin-content{
+	width:100%;
+	max-width:630px;
+	margin-left:auto;
+	margin-right:auto;
+}
+
+.treethereumplugin-shortcode{
+	padding-top:80px;
+	padding-bottom:40px;
+}
+
+.treethereumplugin-shortcode h2{
+	font-family: 'Montserrat', sans-serif;
+	font-size:32px;
+	color:#333;
+	text-align:center;
+	font-weight:700;
+	text-transform:uppercase;
+	margin:0 auto;
+	width:100%;
+	line-height:45px;
+}
+
+.treethereumplugin-shortcode .treethereumplugin-button-group{
+	width:100%;
+	margin-left:auto;
+	margin-right:auto;
+/*	margin-top:30px;*/
+	padding-bottom:40px;
+	border-bottom:1px #e8e8e8 solid;
+	text-align:center;
+}
+
+.treethereumplugin-shortcode .treethereumplugin-button-group input.treethereumplugin-bottom-input-one{
+	width: 241px!important;
+	float:left;
+	background:#eef0f1;
+	height:60px;
+	line-height:60px;
+	display:block;
+	border-radius:6px;
+	font-weight:700;
+	font-size:19px;
+	padding:12px 20px;
+	border:1px #eef0f1 solid;
+	text-align:center;
+}
+.treethereumplugin-shortcode .treethereumplugin-button-group input.treethereumplugin-bottom-input-one:focus{
+	border:1px #dbe0e2 solid;
+	outline:0px;
+	box-shadow:none;
+}
+
+.treethereumplugin-shortcode .treethereumplugin-button-group .treethereumplugin-bottom-button-two{
+	width: 250px;
+	float:left;
+	background:#009900;
+	height:60px;
+	display:block;
+	color:#FFF;
+	transition:all .25s ease-in-out;
+	border-radius:3px;
+	text-transform:uppercase;
+	font-size:15px;
+	padding-top:20px;
+	line-height:20px;
+	border-radius:6px;
+	box-shadow:0px 12px 32px rgba(5,168,155,0.35);
+	transition:all .25s ease-in-out;
+	margin-top:30px;
+	float: left;
+}
+
+.treethereumplugin-shortcode .treethereumplugin-button-group .treethereumplugin-bottom-button-two:hover{
+	box-shadow:none;
+	transition:all .25s ease-in-out;
+}
+.treethereumplugin-shortcode .treethereumplugin-button-group .eth{
+	line-height:60px;
+	color: #000000;
+	font-size:19px;
+	font-weight:700;
+	margin-top: 30px;
+	float: left;
+	margin-left: 20px;
+	margin-right: 20px;
+}
+
+
+.treethereumplugin-shortcode h4{
+	font-size:24px;
+	color:#333;
+	text-align:center;
+	font-weight:700;
+	text-transform:uppercase;
+	margin:0 auto;
+	width:100%;
+	line-height:30px;
+	margin-top:40px;
+}
+
+
+.treethereumplugin-description{
+	max-width:630px;
+	margin-left:auto;
+	margin-right:auto;
+	text-align:center;
+	font-size:18px;
+	line-height:30px;
+	margin-bottom:44px;
+	margin-top: 30px;
+}
+
+
+
+.treethereumplugin-shortcode .bottom-button_three{
+	width: 270px;
+	background:#FFF;
+	height:60px;
+	display:block;
+	color:#00beae;
+	transition:all .25s ease-in-out;
+	border-radius:3px;
+	text-transform:uppercase;
+	font-size:15px;
+	border-radius:6px;
+	box-shadow:0px 12px 32px rgba(5,168,155,0.35);
+	margin-left:auto;
+	margin-right:auto;
+	text-align:center;
+	line-height:60px;
+	transition:all .25s ease-in-out;
+}
+
+.treethereumplugin-shortcode .bottom-button_three:hover{
+	color:#FFF;
+	background:#00beae;
+	transition:all .25s ease-in-out;
+}
+
+
+.treethereumplugin-shortcode .bottom-button_three i{
+	font-size:20px;
+	margin-right:15px;
+}
+
+.treethereumplugin-quantity {
+  position: relative;
+  margin-top:30px;
+  float: left;
+}
+
+input[type=number]::-webkit-inner-spin-button,
+input[type=number]::-webkit-outer-spin-button
+{
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+input[type=number]
+{
+  -moz-appearance: textfield;
+}
+
+.treethereumplugin-quantity input {
+  width: 45px;
+  height: 42px;
+  line-height: 1.65;
+  float: left;
+  display: block;
+  padding: 0;
+  margin: 0;
+  padding-left: 20px;
+  border: 1px solid #eee;
+}
+
+.treethereumplugin-quantity input:focus {
+  outline: 0;
+}
+
+.quantity-nav {
+  float: left;
+  position: relative;
+  height: 60px;
+}
+
+.quantity-button {
+  position: relative;
+  cursor: pointer;
+  border-left: 0px solid #666;
+  width: 30px;
+  text-align: center;
+  color: #333;
+  font-size: 15px;
+  line-height: 30px;
+  -webkit-transform: translateX(-100%);
+  transform: translateX(-100%);
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  -o-user-select: none;
+  user-select: none;
+}
+
+.quantity-button.quantity-up {
+  position: absolute;
+  height: 50%;
+  top: 2;
+  border-bottom: 1px solid #eee;
+}
+
+.quantity-button.quantity-down {
+  position: absolute;
+  bottom: 2px;
+  height: 50%;
+}
